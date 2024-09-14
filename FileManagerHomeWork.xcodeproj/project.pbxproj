@@ -13,6 +13,8 @@
 		399D3CDB2C9404B70018B935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399D3CD92C9404B70018B935 /* Main.storyboard */; };
 		399D3CDD2C9404B90018B935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399D3CDC2C9404B90018B935 /* Assets.xcassets */; };
 		399D3CE02C9404B90018B935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399D3CDE2C9404B90018B935 /* LaunchScreen.storyboard */; };
+		399D3CEA2C9405870018B935 /* PhotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CE92C9405870018B935 /* PhotListViewController.swift */; };
+		399D3CEC2C9405C80018B935 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CEB2C9405C80018B935 /* FileService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		399D3CDC2C9404B90018B935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		399D3CDF2C9404B90018B935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		399D3CE12C9404B90018B935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399D3CE92C9405870018B935 /* PhotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotListViewController.swift; sourceTree = "<group>"; };
+		399D3CEB2C9405C80018B935 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				399D3CDC2C9404B90018B935 /* Assets.xcassets */,
 				399D3CDE2C9404B90018B935 /* LaunchScreen.storyboard */,
 				399D3CE12C9404B90018B935 /* Info.plist */,
+				399D3CE92C9405870018B935 /* PhotListViewController.swift */,
+				399D3CEB2C9405C80018B935 /* FileService.swift */,
 			);
 			path = FileManagerHomeWork;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				399D3CD82C9404B70018B935 /* ViewController.swift in Sources */,
+				399D3CEA2C9405870018B935 /* PhotListViewController.swift in Sources */,
 				399D3CD42C9404B70018B935 /* AppDelegate.swift in Sources */,
+				399D3CEC2C9405C80018B935 /* FileService.swift in Sources */,
 				399D3CD62C9404B70018B935 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
