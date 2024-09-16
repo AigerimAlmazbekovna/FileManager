@@ -9,25 +9,35 @@
 /* Begin PBXBuildFile section */
 		399D3CD42C9404B70018B935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CD32C9404B70018B935 /* AppDelegate.swift */; };
 		399D3CD62C9404B70018B935 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CD52C9404B70018B935 /* SceneDelegate.swift */; };
-		399D3CD82C9404B70018B935 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CD72C9404B70018B935 /* ViewController.swift */; };
-		399D3CDB2C9404B70018B935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399D3CD92C9404B70018B935 /* Main.storyboard */; };
 		399D3CDD2C9404B90018B935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399D3CDC2C9404B90018B935 /* Assets.xcassets */; };
 		399D3CE02C9404B90018B935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399D3CDE2C9404B90018B935 /* LaunchScreen.storyboard */; };
 		399D3CEA2C9405870018B935 /* PhotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CE92C9405870018B935 /* PhotListViewController.swift */; };
 		399D3CEC2C9405C80018B935 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CEB2C9405C80018B935 /* FileService.swift */; };
+		399D3CEF2C9813A30018B935 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 399D3CEE2C9813A30018B935 /* KeychainSwift */; };
+		399D3CF22C9813DF0018B935 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 399D3CF12C9813DF0018B935 /* KeychainAccess */; };
+		399D3CF42C98179D0018B935 /* ErrorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CF32C98179D0018B935 /* ErrorProtocol.swift */; };
+		399D3CF62C98182E0018B935 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CF52C98182E0018B935 /* LoginViewController.swift */; };
+		399D3CF82C9821BE0018B935 /* MainTabBarControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CF72C9821BE0018B935 /* MainTabBarControlller.swift */; };
+		399D3CFA2C9822070018B935 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CF92C9822070018B935 /* PasswordViewController.swift */; };
+		399D3CFC2C98225E0018B935 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CFB2C98225E0018B935 /* SettingsViewController.swift */; };
+		399D3CFE2C9824300018B935 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399D3CFD2C9824300018B935 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		399D3CD02C9404B70018B935 /* FileManagerHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManagerHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		399D3CD32C9404B70018B935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		399D3CD52C9404B70018B935 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		399D3CD72C9404B70018B935 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		399D3CDA2C9404B70018B935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		399D3CDC2C9404B90018B935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		399D3CDF2C9404B90018B935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		399D3CE12C9404B90018B935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		399D3CE92C9405870018B935 /* PhotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotListViewController.swift; sourceTree = "<group>"; };
 		399D3CEB2C9405C80018B935 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		399D3CF32C98179D0018B935 /* ErrorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorProtocol.swift; sourceTree = "<group>"; };
+		399D3CF52C98182E0018B935 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		399D3CF72C9821BE0018B935 /* MainTabBarControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarControlller.swift; sourceTree = "<group>"; };
+		399D3CF92C9822070018B935 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		399D3CFB2C98225E0018B935 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		399D3CFD2C9824300018B935 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399D3CF22C9813DF0018B935 /* KeychainAccess in Frameworks */,
+				399D3CEF2C9813A30018B935 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,14 +73,18 @@
 			isa = PBXGroup;
 			children = (
 				399D3CD32C9404B70018B935 /* AppDelegate.swift */,
+				399D3CFD2C9824300018B935 /* AppCoordinator.swift */,
 				399D3CD52C9404B70018B935 /* SceneDelegate.swift */,
-				399D3CD72C9404B70018B935 /* ViewController.swift */,
-				399D3CD92C9404B70018B935 /* Main.storyboard */,
 				399D3CDC2C9404B90018B935 /* Assets.xcassets */,
 				399D3CDE2C9404B90018B935 /* LaunchScreen.storyboard */,
 				399D3CE12C9404B90018B935 /* Info.plist */,
 				399D3CE92C9405870018B935 /* PhotListViewController.swift */,
 				399D3CEB2C9405C80018B935 /* FileService.swift */,
+				399D3CF32C98179D0018B935 /* ErrorProtocol.swift */,
+				399D3CF52C98182E0018B935 /* LoginViewController.swift */,
+				399D3CF72C9821BE0018B935 /* MainTabBarControlller.swift */,
+				399D3CF92C9822070018B935 /* PasswordViewController.swift */,
+				399D3CFB2C98225E0018B935 /* SettingsViewController.swift */,
 			);
 			path = FileManagerHomeWork;
 			sourceTree = "<group>";
@@ -89,6 +105,10 @@
 			dependencies = (
 			);
 			name = FileManagerHomeWork;
+			packageProductDependencies = (
+				399D3CEE2C9813A30018B935 /* KeychainSwift */,
+				399D3CF12C9813DF0018B935 /* KeychainAccess */,
+			);
 			productName = FileManagerHomeWork;
 			productReference = 399D3CD02C9404B70018B935 /* FileManagerHomeWork.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +137,10 @@
 				Base,
 			);
 			mainGroup = 399D3CC72C9404B70018B935;
+			packageReferences = (
+				399D3CED2C9813A30018B935 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				399D3CF02C9813DF0018B935 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 399D3CD12C9404B70018B935 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,7 +157,6 @@
 			files = (
 				399D3CE02C9404B90018B935 /* LaunchScreen.storyboard in Resources */,
 				399D3CDD2C9404B90018B935 /* Assets.xcassets in Resources */,
-				399D3CDB2C9404B70018B935 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,25 +167,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399D3CD82C9404B70018B935 /* ViewController.swift in Sources */,
+				399D3CFE2C9824300018B935 /* AppCoordinator.swift in Sources */,
+				399D3CF62C98182E0018B935 /* LoginViewController.swift in Sources */,
 				399D3CEA2C9405870018B935 /* PhotListViewController.swift in Sources */,
+				399D3CFC2C98225E0018B935 /* SettingsViewController.swift in Sources */,
+				399D3CF42C98179D0018B935 /* ErrorProtocol.swift in Sources */,
 				399D3CD42C9404B70018B935 /* AppDelegate.swift in Sources */,
 				399D3CEC2C9405C80018B935 /* FileService.swift in Sources */,
 				399D3CD62C9404B70018B935 /* SceneDelegate.swift in Sources */,
+				399D3CF82C9821BE0018B935 /* MainTabBarControlller.swift in Sources */,
+				399D3CFA2C9822070018B935 /* PasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		399D3CD92C9404B70018B935 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				399D3CDA2C9404B70018B935 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		399D3CDE2C9404B90018B935 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,7 +319,6 @@
 				INFOPLIST_FILE = FileManagerHomeWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +345,6 @@
 				INFOPLIST_FILE = FileManagerHomeWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,6 +382,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		399D3CED2C9813A30018B935 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+		399D3CF02C9813DF0018B935 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		399D3CEE2C9813A30018B935 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 399D3CED2C9813A30018B935 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		399D3CF12C9813DF0018B935 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 399D3CF02C9813DF0018B935 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 399D3CC82C9404B70018B935 /* Project object */;
 }

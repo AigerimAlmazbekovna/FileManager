@@ -6,10 +6,15 @@
 //
 
 
-import Foundation
 import UIKit
 
 final class FileService {
+    
+    var files: [String] = []
+    
+    var sortedItems: [String] {
+        return items.sorted()
+    }
     
     private let pathForFolder: String
     
@@ -31,7 +36,6 @@ final class FileService {
                 let fileExtension = (filePath as NSString).pathExtension.lowercased()
                 return imageExtensions.contains(fileExtension)
             }
-            .sorted()
 
         return images
     }
@@ -47,8 +51,6 @@ final class FileService {
     }
     
     func addFile(name: String, data: Data, originalImageURL: URL, completion: @escaping (Bool) -> Void) {
-        //        let fileExtension = originalImageURL.pathExtension.lowercased()
-        //        let imageName = "\(data.hashValue).\(fileExtension)"
         let url = URL(fileURLWithPath: pathForFolder).appendingPathComponent(name)
 
         if FileManager.default.fileExists(atPath: url.path) {
@@ -57,6 +59,7 @@ final class FileService {
                     if shouldOverwrite {
                         do {
                             try data.write(to: url)
+                            self.files.append(name)
                             completion(true)
                         } catch {
                             completion(false)
@@ -69,12 +72,14 @@ final class FileService {
         } else {
             do {
                 try data.write(to: url)
+                self.files.append(name)
                 completion(true)
             } catch {
                 completion(false)
             }
         }
     }
+
 
     
     private func showFileExistsAlert(url: URL, completion: @escaping (Bool) -> Void) {
@@ -102,6 +107,7 @@ final class FileService {
         
         do {
             try FileManager.default.removeItem(at: url)
+            files.remove(at: index) // Remove the item from the data source
             completion(true)
         } catch {
             completion(false)
